@@ -31,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:1bitsy_convertor
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -45,4 +46,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L 1bitsy_convertor U?
+U 1 1 5A30A2C0
+P 4900 2950
+F 0 "U?" H 4900 2000 60  0000 C CNN
+F 1 "1bitsy_convertor" H 4950 3800 60  0000 C CNN
+F 2 "" H 4900 2950 60  0001 C CNN
+F 3 "" H 4900 2950 60  0001 C CNN
+	1    4900 2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

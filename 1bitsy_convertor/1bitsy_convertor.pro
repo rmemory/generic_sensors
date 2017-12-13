@@ -1,4 +1,4 @@
-update=Tue 12 Dec 2017 07:53:01 PM MST
+update=Tue 12 Dec 2017 08:28:20 PM MST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -59,5 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[general]
-version=1
+LibName33=1bitsy_convertor

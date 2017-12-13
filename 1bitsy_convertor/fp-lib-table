@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name 1bitsy_convertor_footprints)(type KiCad)(uri "$(KIPRJMOD)/1bitsy_convertor_footprints.pretty")(options "")(descr ""))
+)
