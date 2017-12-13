@@ -49,12 +49,12 @@ $EndDescr
 $Comp
 L 1bitsy_convertor U?
 U 1 1 5A30A2C0
-P 4900 2950
-F 0 "U?" H 4900 2000 60  0000 C CNN
-F 1 "1bitsy_convertor" H 4950 3800 60  0000 C CNN
-F 2 "" H 4900 2950 60  0001 C CNN
-F 3 "" H 4900 2950 60  0001 C CNN
-	1    4900 2950
+P 3700 3100
+F 0 "U?" H 3700 2150 60  0000 C CNN
+F 1 "1bitsy_convertor" H 3750 3950 60  0000 C CNN
+F 2 "" H 3700 3100 60  0001 C CNN
+F 3 "" H 3700 3100 60  0001 C CNN
+	1    3700 3100
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
