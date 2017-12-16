@@ -1,4 +1,4 @@
-update=Tue 12 Dec 2017 08:28:20 PM MST
+update=Fri 15 Dec 2017 08:28:16 PM MST
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=1bitsy_convertor
+LibName34=1bitsy

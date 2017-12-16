@@ -1,8 +1,0 @@
-(module 1bitsy (layer F.Cu) (tedit 5A3207A4)
-  (fp_text reference REF** (at 0 5.08) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value 1bitsy (at 0 -5.08) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-)
