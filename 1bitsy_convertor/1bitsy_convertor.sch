@@ -58,11 +58,11 @@ F 3 "" H 2800 1900 60  0001 C CNN
 	1    2800 1900
 	1    0    0    -1  
 $EndComp
-Text Label 3500 3100 2    60   ~ 0
+Text Label 3600 3550 2    60   ~ 0
 USART_TX
 Text Label 4500 1250 0    60   ~ 0
 USART_TX
-Text Label 3500 3200 2    60   ~ 0
+Text Label 3600 3650 2    60   ~ 0
 USART_RX
 Text Label 1150 1350 2    60   ~ 0
 USART_RX
@@ -88,55 +88,53 @@ F 3 "" H 4600 2000 50  0001 C CNN
 	1    4600 2000
 	1    0    0    -1  
 $EndComp
-Text Label 3500 3700 2    60   ~ 0
+Text Label 3600 4150 2    60   ~ 0
 I2C_SCL
-Text Label 3500 3800 2    60   ~ 0
+Text Label 3600 4250 2    60   ~ 0
 I2C_SDA
 Text Label 3800 2250 0    60   ~ 0
 I2C_SDA
 Text Label 1850 2050 2    60   ~ 0
 I2C_SCL
-Text Label 3500 4400 2    60   ~ 0
+Text Label 3600 4850 2    60   ~ 0
 PWR_3.3
-Text Label 10500 3100 0    60   ~ 0
+Text Label 10600 3550 0    60   ~ 0
 PWR_3.3
 Text Label 3800 2050 0    60   ~ 0
 PWR_3.3
 Text Label 3800 1850 0    60   ~ 0
 GND
-Text Label 10500 4400 0    60   ~ 0
-GND
-Text Label 3500 5600 2    60   ~ 0
+Text Label 10600 4850 0    60   ~ 0
 GND
 Text Label 1850 2650 2    60   ~ 0
 GND
 Text Label 1350 1000 2    60   ~ 0
 SPI_MOSI
-Text Label 10500 3600 0    60   ~ 0
+Text Label 10600 4050 0    60   ~ 0
 SPI_MOSI
-Text Label 10500 3700 0    60   ~ 0
+Text Label 10600 4150 0    60   ~ 0
 SPI_MISO
 Text Label 4350 900  0    60   ~ 0
 SPI_MISO
-Text Label 10500 3800 0    60   ~ 0
+Text Label 10600 4250 0    60   ~ 0
 SPI_SCK
-Text Label 10500 3900 0    60   ~ 0
+Text Label 10600 4350 0    60   ~ 0
 SPI_CS
 Text Label 3800 1450 0    60   ~ 0
 SPI_CS
-Text Label 3500 4600 2    60   ~ 0
+Text Label 3600 5050 2    60   ~ 0
 AIO_0
 Text Label 1850 2250 2    60   ~ 0
 AIO_0
-Text Label 3500 4700 2    60   ~ 0
+Text Label 3600 5150 2    60   ~ 0
 AIO_1
 Text Label 3800 2450 0    60   ~ 0
 AIO_1
-Text Label 3500 4800 2    60   ~ 0
+Text Label 3600 5250 2    60   ~ 0
 AIO_2
 Text Label 1850 2450 2    60   ~ 0
 AIO_2
-Text Label 3500 5000 2    60   ~ 0
+Text Label 3600 5450 2    60   ~ 0
 AIO_3
 Text Label 3800 2650 0    60   ~ 0
 AIO_3
@@ -144,18 +142,7 @@ Text Label 1850 1650 2    60   ~ 0
 SPI_SCK
 Text Label 4600 1850 0    60   ~ 0
 PWR_3.3
-$Comp
-L 1bitsy-super-complete U2
-U 1 1 5A34931A
-P 7000 4600
-F 0 "U2" H 6650 2700 60  0000 C CNN
-F 1 "1bitsy-super-complete" H 7000 2900 60  0000 C CNN
-F 2 "1bitsy_bottom:1bitsy_bottom" H 7000 5100 60  0001 C CNN
-F 3 "" H 7000 5100 60  0001 C CNN
-	1    7000 4600
-	1    0    0    -1  
-$EndComp
-Text Label 10500 3000 0    60   ~ 0
+Text Label 10600 3450 0    60   ~ 0
 PWR_5
 Wire Wire Line
 	3800 2250 4600 2250
@@ -237,86 +224,73 @@ Text Label 1350 1450 0    60   ~ 0
 SPI_MOSI_C
 Wire Wire Line
 	4500 1650 4500 1550
-Text Label 10500 3200 0    60   ~ 0
+Text Label 10600 3650 0    60   ~ 0
 NC
-Text Label 10500 3300 0    60   ~ 0
+Text Label 10600 3750 0    60   ~ 0
 NC
-Text Label 10500 3400 0    60   ~ 0
+Text Label 10600 3850 0    60   ~ 0
 NC
-Text Label 10500 3500 0    60   ~ 0
+Text Label 10600 3950 0    60   ~ 0
 NC
-Text Label 10500 4000 0    60   ~ 0
+Text Label 10600 4450 0    60   ~ 0
 NC
-Text Label 10500 4100 0    60   ~ 0
+Text Label 10600 4550 0    60   ~ 0
 NC
-Text Label 10500 4200 0    60   ~ 0
+Text Label 10600 4650 0    60   ~ 0
 NC
-Text Label 10500 4300 0    60   ~ 0
+Text Label 10600 4750 0    60   ~ 0
 NC
-Text Label 10500 4600 0    60   ~ 0
+Text Label 10600 5050 0    60   ~ 0
 NC
-Text Label 10500 4700 0    60   ~ 0
+Text Label 10600 5150 0    60   ~ 0
 NC
-Text Label 10500 4800 0    60   ~ 0
+Text Label 10600 5250 0    60   ~ 0
 NC
-Text Label 10500 4900 0    60   ~ 0
+Text Label 10600 5350 0    60   ~ 0
 NC
-Text Label 10500 5000 0    60   ~ 0
+Text Label 10600 5450 0    60   ~ 0
 NC
-Text Label 10500 5200 0    60   ~ 0
+Text Label 10600 5650 0    60   ~ 0
 NC
-Text Label 10500 5600 0    60   ~ 0
+Text Label 3600 5850 2    60   ~ 0
 NC
-Text Label 10500 5700 0    60   ~ 0
+Text Label 3600 5750 2    60   ~ 0
 NC
-Text Label 10500 5800 0    60   ~ 0
+Text Label 3600 5650 2    60   ~ 0
 NC
-Text Label 10500 5900 0    60   ~ 0
+Text Label 3600 4750 2    60   ~ 0
 NC
-Text Label 10500 6000 0    60   ~ 0
+Text Label 3600 4650 2    60   ~ 0
 NC
-Text Label 10500 6200 0    60   ~ 0
+Text Label 3600 4550 2    60   ~ 0
 NC
-Text Label 10500 6300 0    60   ~ 0
+Text Label 3600 4450 2    60   ~ 0
 NC
-Text Label 3500 6100 2    60   ~ 0
+Text Label 3600 4350 2    60   ~ 0
 NC
-Text Label 3500 6000 2    60   ~ 0
+Text Label 3600 4050 2    60   ~ 0
 NC
-Text Label 3500 5900 2    60   ~ 0
+Text Label 3600 3950 2    60   ~ 0
 NC
-Text Label 3500 5800 2    60   ~ 0
+Text Label 3600 3850 2    60   ~ 0
 NC
-Text Label 3500 5700 2    60   ~ 0
+Text Label 3600 3750 2    60   ~ 0
 NC
-Text Label 3500 5400 2    60   ~ 0
-NC
-Text Label 3500 5300 2    60   ~ 0
-NC
-Text Label 3500 5200 2    60   ~ 0
-NC
-Text Label 3500 4300 2    60   ~ 0
-NC
-Text Label 3500 4200 2    60   ~ 0
-NC
-Text Label 3500 4100 2    60   ~ 0
-NC
-Text Label 3500 4000 2    60   ~ 0
-NC
-Text Label 3500 3900 2    60   ~ 0
-NC
-Text Label 3500 3600 2    60   ~ 0
-NC
-Text Label 3500 3500 2    60   ~ 0
-NC
-Text Label 3500 3400 2    60   ~ 0
-NC
-Text Label 3500 3300 2    60   ~ 0
-NC
-Text Label 3500 3000 2    60   ~ 0
+Text Label 3600 3450 2    60   ~ 0
 GND
-Text Notes 6650 2800 0    60   ~ 0
+Text Notes 6600 3250 0    60   ~ 0
 1Bitsy Cortex M4
-Text Label 3500 4900 2    60   ~ 0
+Text Label 3600 5350 2    60   ~ 0
 NC
+$Comp
+L 1bitsy-complete U2
+U 1 1 5A35B501
+P 7100 4650
+F 0 "U2" H 7150 3250 60  0000 C CNN
+F 1 "1bitsy-complete" H 6450 3250 60  0000 C CNN
+F 2 "1bitsy:1bitsy" H 7100 4750 60  0001 C CNN
+F 3 "" H 7100 4750 60  0001 C CNN
+	1    7100 4650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
